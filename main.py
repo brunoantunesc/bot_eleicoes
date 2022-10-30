@@ -4,16 +4,16 @@ import time
 import telebot
 from datetime import datetime
 
-key = '5427068016:AAFbIAjMiG8uHKxW3Ee5-ZUXuvsOSGcI0Mo'
+key = "adicionar key do bot criado aqui"
 
 bot = telebot.TeleBot(key)
 
 # Segundo turno
 url = "https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json"
 
-print('Rodando bot de apuração - ApuRamalas')
+print('Rodando bot de apuração - Brasil 2022')
 
-
+# Corrigindo bugs da biblioteca telebot
 def polling():
     try:
         bot.polling()
